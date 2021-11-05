@@ -1,0 +1,106 @@
+#back-img {
+    background-image: url("src\assets\Heading.jpg.png");
+    background-color: #070707;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+}
+
+.content{
+    position: relative;
+    margin-top: 11%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    z-index: 50;
+    top:42%;
+}
+.content .textBox{
+    position: relative;
+    max-width: 550px;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+.content .textBox h2{
+    color: #ffff;
+    font-size:3.5rem;
+    justify-content:center;
+    line-height:1.2em;
+    font-weight: 700;
+    margin-bottom: 5%;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+.content .textBox p{
+    font-size:1.2rem;
+    color: white;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+.content .textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    color: white;
+    border: 2px solid white;
+    font-size:1.2rem;
+    border-radius:40px;
+    font-weight:700;
+    font-family: 'COUTUREBold';
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.content .textBox a:hover{
+    background-color:black;
+    color:white;
+    border: 2px solid black;
+
+}
+
+
+@media (min-width: 453px) and (max-width:767.98px){
+    .content .textBox h2{
+        font-size:2.5rem;
+    }
+    .content{
+        position: relative;
+
+    }
+    .content .textBox p{
+        width: 284px;
+    }
+} 
+@media (min-width: 425px) and (max-width:452.98px){
+    .content .textBox h2{
+        font-size:2rem;
+    }
+    .content{
+        position: relative;
+    }
+    .content .textBox p{
+        width: 352px;
+    }
+
+}
+    @media (min-width: 320px) and (max-width:424.98px){
+        .content .textBox h2{
+            font-size:2rem;
+        }
+        .content{
+            position: relative;
+        }
+        .content .textBox p{
+            width: 284px;
+        }
+
+    }
